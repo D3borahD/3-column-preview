@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=mobile-style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=mobile-style.css.map */

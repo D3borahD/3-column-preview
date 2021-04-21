@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACYA,OAAO,CAAC,8GAAI;AAIZ,AAAA,YAAY,CAAC;EACX,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CACnB;;AACD,AAAA,YAAY,CAAC,CAAC,CAAC;EACb,KAAK,EAAE,OAAkB;CAC1B",
     "sources": [
-        "desktop-style.scss"
+        "desktop-style.scss",
+        "_variables.scss"
     ],
     "names": [],
     "file": "desktop-style.css"
