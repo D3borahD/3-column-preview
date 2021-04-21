@@ -17,7 +17,7 @@
 
 body {
   width: 100%;
-  font-size: 14px;
+  font-size: 1rem;
   font-family: "Lexend Deca", sans-serif;
 }
 
@@ -54,7 +54,7 @@ section:nth-child(1) {
   background-color: #e38826;
 }
 
-section:nth-child(1) a {
+section:nth-child(1) button {
   color: #e38826;
 }
 
@@ -62,7 +62,7 @@ section:nth-child(2) {
   background-color: #006970;
 }
 
-section:nth-child(2) a {
+section:nth-child(2) button {
   color: #006970;
 }
 
@@ -70,7 +70,7 @@ section:nth-child(3) {
   background-color: #004241;
 }
 
-section:nth-child(3) a {
+section:nth-child(3) button {
   color: #004241;
 }
 
@@ -85,9 +85,5 @@ button {
   height: 2.81rem;
   border-radius: 25px;
   border: none;
-}
-
-button a {
-  text-decoration: none;
 }
 /*# sourceMappingURL=mobile-style.css.map */

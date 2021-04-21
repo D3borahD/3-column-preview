@@ -10,7 +10,7 @@
 
 body {
   width: 100%;
-  font-size: 14px;
+  font-size: 1rem;
   font-family: "Lexend Deca", sans-serif;
 }
 body,
@@ -41,19 +41,19 @@ section {
   padding: 2.5rem;
   &:nth-child(1) {
     background-color: $Bright-orange;
-    a {
+    button {
       color: $Bright-orange;
     }
   }
   &:nth-child(2) {
     background-color: $Dark-cyan;
-    a {
+    button {
       color: $Dark-cyan;
     }
   }
   &:nth-child(3) {
     background-color: $Very-dark-cyan;
-    a {
+    button {
       color: $Very-dark-cyan;
     }
   }
@@ -69,7 +69,4 @@ button {
   height: 2.81rem;
   border-radius: 25px;
   border: none;
-  a {
-    text-decoration: none;
-  }
 }

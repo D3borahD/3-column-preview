@@ -8,12 +8,35 @@
   color: #3e52a3;
 }
 
-button:hover {
-  background-color: transparent;
-  border: 1px solid #f2f2f2;
+body {
+  height: 100vh;
 }
 
-button:hover a {
+.contener {
+  width: 63%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10% auto;
+}
+
+section {
+  height: 30rem;
+}
+
+p {
+  margin-bottom: 5rem;
+}
+
+button {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
   color: #f2f2f2;
 }
 /*# sourceMappingURL=desktop-style.css.map */

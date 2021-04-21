@@ -1,11 +1,28 @@
 @import "variables";
 
+body {
+  height: 100vh;
+}
+
+.contener {
+  width: 63%;
+  display: flex;
+  margin: 10% auto;
+}
+section {
+  height: 30rem;
+}
+p {
+  margin-bottom: 5rem;
+}
+
 button {
+  transition: all 0.3s ease-in-out;
   &:hover {
+    cursor: pointer;
     background-color: transparent;
     border: 1px solid $Very-light-gray-background-headings-buttons;
-    a {
-      color: $Very-light-gray-background-headings-buttons;
-    }
+
+    color: $Very-light-gray-background-headings-buttons;
   }
 }
