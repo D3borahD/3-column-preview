@@ -1,1 +1,11 @@
 @import "variables";
+
+button {
+  &:hover {
+    background-color: transparent;
+    border: 1px solid $Very-light-gray-background-headings-buttons;
+    a {
+      color: $Very-light-gray-background-headings-buttons;
+    }
+  }
+}

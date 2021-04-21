@@ -1,6 +1,75 @@
 @import "variables";
 // font-family: 'Big Shoulders Display', cursive; 400
 // font-family: 'Lexend Deca', sans-serif; 700
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 body {
-  font-size: 1rem;
+  width: 100%;
+  font-size: 14px;
+  font-family: "Lexend Deca", sans-serif;
+}
+body,
+button {
+  background-color: $Very-light-gray-background-headings-buttons;
+}
+h1 {
+  color: $Very-light-gray-background-headings-buttons;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+}
+
+p {
+  color: $Transparent-white-paragraphs;
+  line-height: 1.5rem;
+}
+
+.contener {
+  width: 80%;
+  margin: 5rem auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section {
+  height: 27.625rem;
+  padding: 2.5rem;
+  &:nth-child(1) {
+    background-color: $Bright-orange;
+    a {
+      color: $Bright-orange;
+    }
+  }
+  &:nth-child(2) {
+    background-color: $Dark-cyan;
+    a {
+      color: $Dark-cyan;
+    }
+  }
+  &:nth-child(3) {
+    background-color: $Very-dark-cyan;
+    a {
+      color: $Very-dark-cyan;
+    }
+  }
+}
+
+img,
+h1,
+p {
+  margin-bottom: 2.19rem;
+}
+button {
+  width: 8rem;
+  height: 2.81rem;
+  border-radius: 25px;
+  border: none;
+  a {
+    text-decoration: none;
+  }
 }

@@ -7,4 +7,13 @@
 .attribution a {
   color: #3e52a3;
 }
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+}
+
+button:hover a {
+  color: #f2f2f2;
+}
 /*# sourceMappingURL=desktop-style.css.map */
